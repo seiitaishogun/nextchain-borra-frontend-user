@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /admin*/
+Disallow: /accounts*/
+Disallow: /coupon*/
+Disallow: /payments*/
+Disallow: /register*/
+Disallow: /register*/
+Disallow: /login/callback
+Disallow: /search/result/all
+
+User-agent: Mediapartners-Google
+Disallow:
+allow: /accounts*/
+allow: /payments*/

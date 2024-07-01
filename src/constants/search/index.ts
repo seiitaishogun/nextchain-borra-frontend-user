@@ -1,0 +1,4 @@
+const MAX_STORE_LENGTH = 2;
+const HISTORY_KEYWORDS_QUERY_KEY = 'historyKeywords';
+
+export { MAX_STORE_LENGTH, HISTORY_KEYWORDS_QUERY_KEY };

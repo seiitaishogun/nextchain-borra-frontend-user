@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  next:
+    image: node:16.14
+    working_dir: /var/www/html
+    ports:
+      - '3000:3000'
+    command: bash -c "npm i && npm run dev"
+    volumes:
+      - '.:/var/www/html'
